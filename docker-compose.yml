@@ -8,7 +8,7 @@ volumes:
 services:
 
   feedbin:
-  image: thomas-illiet/feedbin
+  image: thomasilliet/feedbin
   ports:
     - 9292:9292/tcp
   environment:
